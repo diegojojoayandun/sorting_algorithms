@@ -13,8 +13,8 @@ void selection_sort(int *array, size_t size)
 {
 	unsigned int i, j, tmp, menor;
 
-	if (size < 2)
-		return array;
+	if (array == NULL || size < 2)
+		return;
 
 	for (i = 0; i < size; i++)
 	{
