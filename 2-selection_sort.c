@@ -14,7 +14,7 @@ void selection_sort(int *array, size_t size)
 	unsigned int i, j, tmp, menor;
 
 	if (size < 2)
-		return;
+		return *array;
 
 	for (i = 0; i < size; i++)
 	{
